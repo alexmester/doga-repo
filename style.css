@@ -1,0 +1,107 @@
+#container{
+    border: 3px solid;
+    margin: white;
+}
+body{
+    background-color: rgb(214, 214, 214);
+    margin: 3px;
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+#maindiv{
+    display: flex;
+}
+ 
+header{
+    background-color: #b588e7;
+    text-align: center;
+    height: 50px;
+    margin: 5px;
+ 
+}
+ 
+footer{
+    background-color: #b588e7;
+    padding: 7px;
+    height: 50PX;
+    margin: 5PX;
+ 
+}
+ 
+#sidebar{  
+    width: 30%;
+    padding: 7px;
+    background-color: #e3b957;
+    margin: 5px;
+ 
+   
+ 
+}
+#jobbdiv{
+    width: 70%;
+}
+#kicsi{
+    display: flex;
+}
+#main{
+    height: 300px;
+    padding: 7px;
+    background-color: #a7dc8a;
+    margin: 5px;
+   
+}
+#widget{
+    width: 50%;
+    height: 130px;
+    padding: 7px;
+    background-color:  #eb867c;
+ 
+}
+#startics{
+     width: 50%;
+     padding: 7px;
+    background-color:  #91b7e8;
+    margin: 5px;
+ 
+   
+}
+ 
+@media screen and (max-width: 900px){
+    #maindiv{
+        flex-direction: column;
+    }
+    #kicsi{
+        flex-direction: column;
+        width: 100%;
+    }
+      #main{
+        height: 150px;
+        width: 100%;
+    }
+    #widget{
+        height: 90px;
+        width: 100%;
+    }
+    #startics{
+        height: 90px;
+        width: 100%;
+    }
+    #sidebar{
+        height: 60px;
+        width: 100%;
+   }
+   #jobbdiv{
+    width: 100%;
+    flex-direction: column;
+   
+   }
+   #header{
+       width: 100%;
+       flex-direction: column;
+   }
+   #footer{
+       width: 100%;
+       flex-direction: column;
+   }
+}
